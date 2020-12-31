@@ -1,0 +1,121 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  
+  int a;
+  int b;
+  int c;
+  int d;
+  int e;
+  int f;
+  
+    cout << "《THIS IS A BUG BOUNTY AND HACKING QUIZ》\n";
+    cout <<"do u wanna continue??\n";
+    cout <<"yes =1\n";
+    cout <<"no =0\n";
+    cin >> a;
+  
+  
+      if (a == 1){
+     
+                 cout <<"then lets start\n";
+    
+                 cout <<"1)\n";
+                 cout <<"______ is the weakness that can be exploited by attackers \n";
+                 cout <<"1-system with virus\n";
+                 cout <<"2-system without firewall\n";
+                 cout <<"3-system with vulnerability\n";
+                 cout <<"4-system with strong pass\n";
+                 cout <<"\n";
+                 cout <<"=>";
+                 cin >> b;
+        
+                   if (b == 3){
+                               cout <<"\n";
+                               cout <<"U are right!\n";
+                               cout <<"\n";
+                               cout <<"2)\n";
+                               cout <<"________is the sum of all the possible points in software or system where unauthorized users can enter as well as extract data from the system.\n";
+                               cout <<"1-attacker surface\n";
+                               cout <<"2-Attack vector\n";
+                               cout <<"3-Attack point\n";
+                               cout <<"4-Attack arena\n";
+                               cout <<"\n";
+                               cout << "=>";
+                               cin >> c;
+      
+                                    if (c == 1){
+                                             cout <<"u are right!!\n";
+        
+                                             cout <<"3)\n";
+                                             cout <<"Which is the script for reflected xss vulnability?\n";
+                                             cout <<"1- <script>1</script>\n";
+                                             cout <<"2-<script>payload(1)</script>\n";
+                                             cout <<"3-<script>alert(1)</script>\n";
+                                             cout <<"4-<script>document.1</script>\n";
+                                             cout <<"=>";
+                                             cin >> d;
+        
+                                                    if (d == 3){
+          
+          cout << "well done. keep going☆ \n";
+          cout <<"\n";
+          cout <<"4)\n";
+          cout <<"What is the attack called “evil twin”?\n";
+          cout <<"1- MAC spoofing\n";
+          cout <<"2- Rogue access point\n";
+          cout <<"3- ARP poisoning\n";
+          cout <<"4- Session hijacking\n";
+          cout <<"=>";
+          cin >> e;
+          
+          
+          if (e == 2){
+            
+            cout << "u are right^_^\n";
+            cout << "do u want to give a star? \n";
+            cout << "yess = 1\n";
+            cout << "no = 0\n";
+            cout << "=>";
+            cin >> f;
+            
+            
+              if (f == 1){
+                cout << "thank u so much😁🤗";
+              }else{
+                
+                cout << "ok no problem😔";
+              }
+            
+            
+          }
+          
+          
+          
+        }else {
+          
+           cout <<"THIS CODE STOPPED DUE TO YOUR WRONG ANSWER;p\n";
+        }
+     
+      }else{
+        
+        cout <<"THIS CODE STOPPED DUE TO YOUR WRONG ANSWER;p\n";
+      }
+      
+   
+   
+   
+    }else {
+      
+      cout <<"IT'S wrong answer\n";
+    }
+  }else {
+    
+    cout <<"\n";
+    cout <<"OK have a nice day\n";
+  }
+  
+  
+  return 0;
+}
